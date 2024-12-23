@@ -4,6 +4,9 @@ const port = 3000;
 const router = express.Router();
 const bodyParser = require('body-parser');
 
+app.use(express.static('public'));
+app.use(bodyParser.json());
+
 const Todo = require('./todo');
 
 router.get('/', (req, res) => res.send('Hello World!'));
