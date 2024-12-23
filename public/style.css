@@ -1,0 +1,28 @@
+body {
+    margin-top: 50px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.todo {
+    background: #eee;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: left;
+    width: 20%;
+}
+
+.todo input {
+    background: #eee;
+    border: 0;
+    font-size: 1.25vw;
+    padding: 5px;
+}
+
+.new-item-button {
+    margin-top: 20px;
+}
+
+.todo .done {
+    text-decoration: line-through;
+}
