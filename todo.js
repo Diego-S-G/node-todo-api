@@ -33,6 +33,15 @@ todoSchema.statics.createDocument = async function(params, callback) {
     }
 };
 
+todoSchema.statics.updateDocument = async function(id, params, callback) {
+    try {
+        const todo = await Todo.findOneAndUpdate({_id: id}, {text: params.text, done: params.done}, {new: true});
+        callback(todo);
+    } catch (err) {
+        handleError(err);
+    }
+};
+
 const Todo = mongoose.model('Todo', todoSchema);
 
 function handleError(err) {
