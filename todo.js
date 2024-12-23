@@ -22,6 +22,14 @@ todoSchema.statics.all = function(callback) {
         callback({todos: todos});
     });
 };
+
+todoSchema.statics.createDocument = function(params, callback) {
+    return Todo.create({text: params.text, done: params.done}, function(err, todo) {
+        if (err) return handleError(err);
+        callback(todo);
+    });
+};
+
 const Todo = mongoose.model('Todo', todoSchema);
 
 module.exports = Todo;
