@@ -1,7 +1,7 @@
 # ToDo App com React e Node
 <br/>
 
-Este é um dos projetos que fiz acompanhando o [curso do Mashrur Hossain na Udemy](https://www.udemy.com/course/ruby-on-rails-react-angular), na minha trilha de aprendizado de Ruby e Rails usando React, AngularJS e Vuejs.
+Este é um dos projetos que fiz acompanhando o [curso do Mashrur Hossain na Udemy](https://www.udemy.com/course/ruby-on-rails-react-angular), na minha trilha de aprendizado de Ruby e Rails usando React, AngularJS e Vue.js.
 <br/>
 
 Este projeto consiste em uma ToDo List bem simples usando Node e React.
