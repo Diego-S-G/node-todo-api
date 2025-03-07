@@ -15,6 +15,3 @@ Este repositório é da parte do **Node**, onde foi feita uma API para tratar da
 
 ## Funcionamento:
 https://github.com/user-attachments/assets/72fc0515-1c23-44e4-bdab-0ba34d06bbea
-
-<br/>
-<br/>
